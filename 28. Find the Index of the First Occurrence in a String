@@ -1,0 +1,22 @@
+// c++ 100% fast
+
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+         size_t found = haystack.find(needle);
+    if (found != string::npos)
+    {
+        return found;
+    }
+    else return -1;
+    }
+};
+                                        //java
+//                                         class Solution {
+//     public int strStr(String haystack, String needle) {
+//         if(haystack.contains(needle))
+//        return haystack.indexOf(needle);
+//        else
+//        return -1;
+//     }
+// }
